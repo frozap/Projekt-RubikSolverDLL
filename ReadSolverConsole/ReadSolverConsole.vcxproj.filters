@@ -30,7 +30,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="optimal.c">
+    <ClCompile Include="optimalLV.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
