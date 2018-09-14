@@ -1,0 +1,29 @@
+UF UR UB UL DF DR DB DL FR FL BR BL UFR URB UBL ULF DRF DFL DLB DBR   Solution
+
+UF UR RD RB LU LF DB DL FR UB DF BL UFR RFD RDB RBU LFU LUB DLB LDF cube in cube    Lösung: F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+FR UR UB UL FL DR DB DL DF UF BR BL DRF URB UBL UFR DFL ULF DLB DBR Front q-move    Lösung: U' B' D' R' D' F' D  F  D  L  D' L' B  U  F  R  F'
+UF UR DF DR LB DL FL DB UL BU BD FR DFL RUF UBL DLB BRD RFD LFU RBU                 bad edge cubie!  Unsolvable!          
+
+FU RU UB LU DF DR DB DL FR FL BR BL UFR URB UBL ULF DRF DFL DLB DBR 3 edges         flip any edge cubie! Unsolvable!
+
+FU RU UB LU DF DR DB DL FR FL BR BL UFR URB UBL ULF DRF DFL DLB DBR 2nd jumbled     flip any edge cubie! Unsolvable!
+
+UF UR UB UL RD LD DF DB RB BL LF FR ULF URB UBL UFR RDB BDL FDR DFL 3rd jumbled     Lösung: F  R' F' R  F' D' R  F' D' R' U' R' U' B' U  L  B' L' U  F    (F 90° cw, F' 90° ccw) OK!!!
+
+ 												F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L' cube in cube
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        F' D  R  D' F' U  F  R' F  L  F' D' F  L  B' L' D  L'
+                        
+                         U' B' D' R' D' F' D  F  D  L  D' L' B  U  F  R  F' Front q-move
+                         U' B' D' R' D' F' D  F  D  L  D' L' B  U  F  R  F'
+                         
+                         F  R' F' R  F' D' R  F' D' R' U' R' U' B' U  L  B' L' U  F  3rd jumbled
+                          D' L' F' U' F' B' R' D  R  F' D' B  R  U  L  B  D' F  D  B'  nach 47min Rechnzeit, welche Lösung ist richtig?
