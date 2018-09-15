@@ -4302,10 +4302,11 @@ return;
 	   return stat;
    }
 
-/* ========================================================================= TODO */
+/* ========================================================================= RG */
    int  main(void)
+/* ------------------------------------------------------------------------- */
    {
-	   Metric_data      metric_data;
+   	   Metric_data      metric_data;
 	   Options          user_options;
 	   char				solution[256];
 	   char				cube_input[] = "UF UR RD RB LU LF DB DL FR UB DF BL UFR RFD RDB RBU LFU LUB DLB LDF";
@@ -4316,40 +4317,3 @@ return;
 
 	   return stat;
    }
-/* ------------------------------------------------------------------------- 
-
-{
-Metric_data             metric_data;
-Options                 user_options;
-Cube                    cube_struct;
-int                     stat;
-
-init_options(&metric_data, &user_options);
-init_globals();
-
-//signal(SIGINT, SIG_IGN);
-
-while (1)
-      {
-      stat = user_enters_cube(&cube_struct);
-      if (stat < 0)
-         break;
-
-      if (stat == 0)
-         {
-//         if (sigsetjmp(jump_env, 1) == 0)
-//            {
-//            signal(SIGINT, user_interrupt);
-		    char solution[256];
-            solve_cube(&cube_struct, &solution);
-			printf( "Lösung: %s", solution);
-//            }
-
-//         signal(SIGINT, SIG_IGN);
-         }
-      }
-
-exit(EXIT_SUCCESS);
-
-return 0; 
-} */
